@@ -3,6 +3,7 @@ define(["text!pages/ScrumBoard/templates/FooterView.html"],
 
         return Backbone.View.extend({
 	        initialize: function(options){
+	        	this.$el.attr("class", "footer"); 
             },
 
             render: function() {
